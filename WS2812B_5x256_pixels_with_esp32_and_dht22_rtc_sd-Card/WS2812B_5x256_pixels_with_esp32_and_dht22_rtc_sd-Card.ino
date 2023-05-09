@@ -109,7 +109,7 @@ void setup() {
   getSttWifi();
   effects.prepacard();
   effects.readSttspeed();
-  dht.setup(12, EspDHT::DHT22); // data pin 13 
+  dht.setup(12, EspDHT::DHT22); // data pin 12
   effects.readTempHumi();
   patterns.setPattern(Ci);
   patterns.start();
